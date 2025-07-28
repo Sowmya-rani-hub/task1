@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sowmya Rani</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        
+    <header>
+        <h1>Welcome to the page</h1>
+        <p>I am Sowmya Rani, am a Student in MLRIT </p>
+
+        <img src="myphoto.png" alt="My Photo">
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>let's connect</p>
+        <p>Email: <a href="mailto:sowmyarani1416@gmail.com">send me an email</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sowmya-rani-41800b286" target="_blank">Visit My LinkedIn</a></p>
+    </section>
+
+    <section>
+        <h2>My Skills</h2>
+        <table align="cnter">
+            <tr>
+                <td>
+                    <ul style="text.align:left;">
+                        <li>Python</li>
+                        <li>Web Development</li>
+                        <li>Graphic Design</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <button onclick="showMessage()">Click Me</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sowmya Rani</p>
+    </footer>
+
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
